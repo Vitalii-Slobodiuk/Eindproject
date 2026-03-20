@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #008cff;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 5px;
+    font-size: 14px;
+}
+
+#sort-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#game-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.game-card {
+    background-color: #fff821;
+    border: 1px solid #ffab25;
+    padding: 10px;
+    width: 180px;
+    text-align: center;
+}
+
+.game-card h3 {
+    margin: 5px 0;
+}
+
+.game-card p {
+    margin: 5px 0;
+}
+
+input[type="number"] {
+    width: 55px;
+}
+
+button {
+    margin-top: 5px;
+    padding: 3px 6px;
+}
+
+.delete-btn {
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
